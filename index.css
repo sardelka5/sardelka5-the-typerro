@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+.start {
+  background-color: yellow;
+  width: 200px;
+  margin: 60px 0 40px 0;
+  font-size: 30px;
+}
+
+.word {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  font-size: 40px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.pointer::before {
+  content: '→';
+}
